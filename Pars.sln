@@ -1,0 +1,31 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{50C4262C-0513-4768-8B2A-40239940BCD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{B12442A7-322D-4970-856F-9EB3BC6ACE29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pars.Layout.Clients.ConsoleApp", "Clients\Pars.Layout.Clients.ConsoleApp\Pars.Layout.Clients.ConsoleApp.csproj", "{03A2EE92-38C6-4F28-9788-D4868890AAB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pars.Layout.Api", "Src\Pars.Layout.Api\Pars.Layout.Api.csproj", "{A2B4540B-3545-48A7-95D4-A32D4F1323F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03A2EE92-38C6-4F28-9788-D4868890AAB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03A2EE92-38C6-4F28-9788-D4868890AAB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03A2EE92-38C6-4F28-9788-D4868890AAB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03A2EE92-38C6-4F28-9788-D4868890AAB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2B4540B-3545-48A7-95D4-A32D4F1323F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2B4540B-3545-48A7-95D4-A32D4F1323F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2B4540B-3545-48A7-95D4-A32D4F1323F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2B4540B-3545-48A7-95D4-A32D4F1323F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{03A2EE92-38C6-4F28-9788-D4868890AAB9} = {50C4262C-0513-4768-8B2A-40239940BCD3}
+		{A2B4540B-3545-48A7-95D4-A32D4F1323F4} = {B12442A7-322D-4970-856F-9EB3BC6ACE29}
+	EndGlobalSection
+EndGlobal
